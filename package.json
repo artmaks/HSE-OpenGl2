@@ -1,0 +1,30 @@
+{
+  "name": "webgl2",
+  "version": "1.0.0",
+  "description": "Homework on HSE (Computer Graphic Opengl 2)",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^14.0.0",
+    "express": "^4.14.1",
+    "three": "^0.84.0",
+    "watchify": "^3.9.0",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "build-js": "browserify js/app.js > production/result.js",
+    "watch-js": "watchify js/app.js -o production/result.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artmaks/HSE-OpenGl2.git"
+  },
+  "author": "Artem Maksimov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artmaks/HSE-OpenGl2/issues"
+  },
+  "homepage": "https://github.com/artmaks/HSE-OpenGl2#readme"
+}
