@@ -2240,7 +2240,7 @@
                 "name": "LightPreset",
                 "uuid": "1783D250-7BC6-30D0-B7CB-5461D8774CE2",
                 "matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.01675,0,1],
-                "visible": true,
+                "visible": false,
                 "type": "Object",
                 "children": [{
                     "name": "BackLight",
@@ -2251,27 +2251,27 @@
                     "castShadow": false,
                     "color": 7838134,
                     "intensity": 0.75,
-                    "distance": 0
+                    "distance": 0.00001
                 },{
                     "name": "FillLight",
                     "uuid": "45C90A33-0D2F-3540-A48E-3AFDDA8A011B",
                     "matrix": [0.398127,0.775804,-0.489512,0,-0.489512,0.630973,0.601873,0,0.775804,-0,0.630973,0,42.8633,0,34.8614,1],
-                    "visible": true,
+                    "visible": false,
                     "type": "DirectionalLight",
                     "castShadow": false,
                     "color": 15062196,
                     "intensity": 0.85,
-                    "distance": 0
+                    "distance": 1
                 },{
                     "name": "KeyLight",
                     "uuid": "50157FD0-6064-3AF8-A62F-23E1675946D0",
                     "matrix": [0.817645,-0.527833,0.229888,0,0.229888,0.66542,0.710188,0,-0.527833,-0.527833,0.66542,0,-15.1782,-15.1782,19.1346,1],
-                    "visible": true,
+                    "visible": false,
                     "type": "DirectionalLight",
                     "castShadow": false,
                     "color": 16776180,
                     "intensity": 1,
-                    "distance": 0
+                    "distance": 1
                 }]
             },{
                 "name": "Null",
